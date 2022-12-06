@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+       nav img{
+        height: 6rem;
+        width: 15rem;
+       } 
+       nav button{
+        background-color: coral;
+        color: white;
+        border-radius: 20px;
+        font-size: 10px;
+        margin: 22px;
+       }
+       nav a{
+        color:black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top:15px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+       }
+       .bg1{
+        background-image: url("https://img.freepik.com/premium-photo/set-groats-grains-buckwheat-lentils-rice-millet-barley-corn-black-rice-black-background-top-view-copy-space_187166-17488.jpg?w=996");
+        background-size: cover;
+        height: 70vh;
+        width: 100vw;
+       }
+       .head1{
+        font-size: 45px;
+        font-weight: bold;
+        color: whitesmoke;
+        margin-left: 930px;
+       }
+       .para1{
+        font-size: 30px;
+        font-weight: bold;
+        color: whitesmoke;
+        margin-left: 870px;
+       }
+       .mar1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+       }
+       /*.bg2{
+        padding: 50px;
+        margin: 50px;
+       }*/
+       .bg2 img{
+        height: 300px;
+        width: 500px;
+        padding-top: 100px;
+        padding-left: 200px;
+       }
+       .bg2 video{
+        padding-top: 100px;
+        padding-bottom: 50px;
+       }
+       .bg3{
+        background-color: whitesmoke;
+        background-size: cover;
+        width:100vw;
+        height:80vh;
+       }
+       .head2{
+        padding-top: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+       }
+       .para2{
+        font-size: 30px;
+        font-weight: bold;
+       }
+       .head2:hover{
+        transform: scale(1.5);
+       }
+       .bg3 img{
+        height:150px;
+        width:150px;
+       }
+       .head3{
+        font-weight: 500;
+        font-size: 25px;
+       }
+       .para3{
+        font-weight: 300;
+        font-size: 20px;
+       }
+       .bg4{
+        background-color: aliceblue;
+        background-size: cover;
+        height: 160vh;
+        width: 100vw;
+       }
+       .head4{
+        padding-top: 10px;
+        padding-bottom: 20px;
+       }
+       .head5{
+        font-size: 18px;
+        font-weight: bold;
+       }
+       .button1{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: aliceblue;
+       }
+       .bg5{
+        background-color: whitesmoke;
+        background-size: cover;
+        width:100vw;
+        height:50vh;
+       }
+       .img3{
+        padding-top: 150px;
+        height:250px;
+        width:250px;
+       }
+       .img4{
+        height:100px;
+        width:100px;
+        margin: 20px;
+       }
+       .head6{
+        padding-top: 130px;
+        text-align: center;
+       }
+       .para6{
+        padding-top: 10px;
+        font-size: 20px;
+       }
+       .button6{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: aliceblue;
+       }
+    
+    </style>
+</head>
+<body>
+    <!--NAVBAR CREATION-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="https://img.freepik.com/premium-photo/shopping-bag-full-fresh-fruits-vegetables-with-assorted-ingredients_8087-2232.jpg?w=996"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://keerthanatammina.github.io/gro-4/">Products</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://keerthanatammina.github.io/gro1/">Delivery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://keerthanatammina.github.io/gro-2/">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <button><a href="https://keerthanatammina.github.io/gro-4/">Order now</a></button>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+
+
+        <!--marquee stage-->
+        <div class="mar1">
+            <marquee behavior="scroll" direction="left">
+            <img src="https://pnptc-media.s3.amazonaws.com/images/header_photo.2e16d0ba.fill-1200x800.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://assets.epicurious.com/photos/5b16e394100fee1fe1c8f354/16:9/w_2560%2Cc_limit/Vanilla-Ice-Cream-Taste-Test-31052018.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://limetray.com/blog/wp-content/uploads/2020/04/nrd-D6Tu_L3chLE-unsplash-1024x768.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://previews.123rf.com/images/abdulrazaklatif/abdulrazaklatif2107/abdulrazaklatif210700284/171487161-kuala-lumpur-malaysia-may-04-2020-variety-of-ice-cream-product-at-grocery-store-supermarket-ice-crea.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://birlahealthcare.com/wp-content/uploads/2022/02/Importance-of-Green-Vegetables.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://c8.alamy.com/comp/MH3KMC/holetown-barbados-03-19-2018-bottles-of-aysan-sunflower-oil-stand-on-a-shelf-of-a-supermarket-MH3KMC.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://previews.agefotostock.com/previewimage/medibigoff/0f9f12a2e26eb538c1540322d54b4170/esy-015072193.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2022/10/chip-selection-grocery-store.jpg?quality=82&strip=1" width="120" height="80" alt="Natural" />
+            <img src="https://c8.alamy.com/comp/GB5BHK/chocolate-display-at-a-supermarket-in-melbourne-australia-GB5BHK.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://5.imimg.com/data5/AS/UR/MY-51298416/grocery-500x500.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://media.gettyimages.com/id/476330802/photo/packet-of-nestles-maggi-noodles-india.jpg?s=612x612&w=gi&k=20&c=l81Vej6Rd2YhNEsaHYbZhVL7kTQOX2n6vOV9jIEdsTA=" width="120" height="80" alt="Natural" />
+            <img src="https://previews.123rf.com/images/rouslan/rouslan1803/rouslan180300298/106465577-moscow-russia-march-12-2018-mineral-and-pure-water-bottles-display-on-the-shelf-in-supermarket.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://classiq.in/wp-content/uploads/2020/12/PULSES.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://m.media-amazon.com/images/I/71uikt3JPGL._SX522_.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://www.foodiesfeed.com/wp-content/uploads/2019/03/fresh-eggs-in-a-grocery-store.jpg" width="120" height="80" alt="Natural" />
+            <img src="https://www.shutterstock.com/image-photo/fruits-supermarket-260nw-159108020.jpg" width="120" height="80" alt="Natural" />
+            </marquee>
+            </div>
+
+
+        <!--BACKGROUND CREATION-->
+        <div class="bg1 d-flex flex-column justify-content-center">
+            <h1 class="head1">WELCOME TO FRESHBUY</h1>
+            <p class="para1">Order your groceries in anywhere at anytime</p>
+        </div>
+
+
+        
+    
+
+        <!--layout creation-->
+        <div class="bg2">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-12 col-lg-6">
+                    <video src="grocery.mp4" class="slider" autoplay loop muted></video>
+                    </video>
+                    </div>
+                    
+                    <div class="col-12 col-lg-6">
+                        <img src="https://cdn.w600.comps.canstockphoto.com/paper-shopping-bag-full-of-groceries-vector-clipart_csp48252104.jpg" class="imgcard"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--advertisement-->
+        <div class="bg3">
+            <div class="text-center">
+            <h1 class="head2">FRESH BUY</h1>
+            <p class="para2">South India's best grocery market</p>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gro1 p-3">
+                            <img src="https://img.freepik.com/premium-vector/100-satisfaction-guaranteed-premium-quality-badge-black-gold-glossy-metallic-luxury-vintage-logo_115968-138.jpg?w=2000" class="imgcard"/>
+                            <h1 class="head3">Premium Quality</h1>
+                            <p class="para3">We use only premium quality ingredients and products to our customers</p>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gro1 p-3">
+                            <img src="https://www.shutterstock.com/image-vector/best-service-3d-gold-badge-260nw-321730046.jpg" class="imgcard"/>
+                            <h1 class="head3">Best Service</h1>
+                            <p class="para3">We always try to maintain best service to you</p>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gro1 p-3">
+                            <img src="data:image/png;base64,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" class="imgcard"/>
+                            <h1 class="head3">Delivery</h1>
+                            <p class="para3">Its our promise to provide best products in time without any delivery charges</p>
+                        </div>
+                    </div>
+                    
+    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gro1 p-3">
+                    <img src="https://thumbs.dreamstime.com/z/red-banner-special-offer-megaphone-white-background-ribbon-discount-sale-modern-advertising-promotion-store-info-174333995.jpg" class="imgcard"/>
+                    <h1 class="head3">Offer</h1>
+                    <p class="para3">We will provide special offers on every festival celebrations on cool drinks,groceries and on baby products </p>
+                         </div> 
+                    </div>
+                </div>
+                </div>
+          </div>
+        </div>
+ 
+
+        <!--visit more button-->
+        <div class="bg4 pt-5 pb-5">
+                <div class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="head4">AVAILABLE GROCERIES</h1>
+                        </div>
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://img.freepik.com/free-photo/various-legumes_53876-47070.jpg?w=996&t=st=1669898538~exp=1669899138~hmac=5d86129ca7cf5540f0d3f2b63af84dee29334e00122610b40ad393cb6b2e8970" class="img2 w-100"/>
+                                <h1 class="head5">Pulses</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                                
+                            </div>
+                        </div>
+        
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://as1.ftcdn.net/v2/jpg/02/58/85/80/1000_F_258858072_DryGvChQFUVSIMQgoyiouICd4nfNFqDJ.jpg"  class="img2 w-100"/>
+                                <h1 class="head5">Bottles</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+        
+        
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://as1.ftcdn.net/v2/jpg/02/33/93/58/1000_F_233935882_qVUK1SL7BlLJ0gkaoPK5IqBixAAdzbxf.jpg"  class="img2 w-100"/>
+                                <h1 class="head5">Beauty products</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+        
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://img.freepik.com/free-photo/roasted-coffee-beans-burlap-sack_23-2148255077.jpg?w=996&t=st=1669898568~exp=1669899168~hmac=99a42137003919aff947864dbefe4e80cc35dde0d4bd58afa032977b6b143446"  class="img2 w-100"/>
+                                <h1 class="head5">Coffee beans</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://img.freepik.com/premium-photo/wheat-spike-wheat-grain-burlap-bag-isolated-white-space_157837-620.jpg?w=996"  class="img2 w-100"/>
+                                <h1 class="head5">Wheat</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://img.freepik.com/free-photo/colorful-fruits-tasty-fresh-ripe-juicy-white-desk_179666-169.jpg?w=996&t=st=1669898758~exp=1669899358~hmac=1df29ba482e148552f67601a028526117d5829a317f956563ad58b8ed9c50cdc"  class="img2 w-100"/>
+                                <h1 class="head5">Fruits</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+        
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://img.freepik.com/free-photo/variety-legumes-top-view_1127-174.jpg?w=996&t=st=1669898630~exp=1669899230~hmac=7d60e934fd21c4b8deecd8e7ecf1d84ab4c0506d14c2ecf763c4d8b2debdd7f8"  class="img2 w-100"/>
+                                <h1 class="head5">Cereals</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+        
+        
+        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="explorecards shadow p-3 mb-3">
+                                <img src="https://img.freepik.com/free-vector/potato-chips-bag-ad_52683-35118.jpg?w=996&t=st=1669901965~exp=1669902565~hmac=a53e910baa98e142c4338f7e33eca4a62119b4d9ce362912be03c5483634bec1"  class="img2 w-100"/>
+                                <h1 class="head5">Snacks</h1>
+                                <a href="#" class="explorelink">view more</a>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        
+                        
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explorecards shadow p-3 mb-3">
+                                    <img src="https://img.freepik.com/free-photo/front-view-vegetable_140725-103355.jpg?w=996&t=st=1669901791~exp=1669902391~hmac=47e3f507b4c42e63322198e6895d49159645e96a7d4733b3080394f6139c193e"  class="img2 w-100"/>
+                                    <h1 class="head5">Vegetables</h1>
+                                    <a href="#" class="explorelink">view more</a>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+            
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explorecards shadow p-3 mb-3">
+                                    <img src="https://img.freepik.com/premium-psd/bread-pouch-packaging-mockup_439185-2480.jpg?w=900"  class="img2 w-100"/>
+                                    <h1 class="head5">Bread</h1>
+                                    <a href="#" class="explorelink">view more</a>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+            
+            
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explorecards shadow p-3 mb-3">
+                                    <img src="https://img.freepik.com/premium-psd/baby-diaper-packaging-mockup_439185-4228.jpg?w=900"  class="img2 w-100"/>
+                                    <h1 class="head5">Baby products</h1>
+                                    <a href="#" class="explorelink">view more</a>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+            
+            
+            
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explorecards shadow p-3 mb-3">
+                                    <img src="https://img.freepik.com/free-photo/soybean-oil-soybean-food-beverage-products-food-nutrition-concept_1150-26351.jpg?w=996&t=st=1669902044~exp=1669902644~hmac=3e0c8f79f1cc82f6a59464b8212ef3170e99ababb2d6ffdd59fe1a76e169d517"  class="img2 w-100"/>
+                                    <h1 class="head5">Cooking oil</h1>
+                                    <a href="#" class="explorelink">view more</a>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" color="red">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+
+                    
+                </div>
+                </div>
+            </div>
+            <div class="button1">
+                <div class="text-center">
+                    <button class="btn btn-light"><a href="https://keerthanatammina.github.io/gro-4/
+">VISIT MORE</a></button>
+                </div>
+            </div>
+        
+        </div>
+
+        <!--payment section-->
+            <div class="bgimg5 pt-4 pb-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-5 order-1 order-md-2">
+                            <img src="https://as2.ftcdn.net/v2/jpg/01/80/60/29/1000_F_180602933_VzVrgEmJ6b4esAVTmwitUqyUoFkdrU5C.jpg" class="img3"/>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <h1 class="head6">Payment</h1>
+                            <p class="para6">Enjoy 10% Discount in online shopping on every order</p>
+                            <div class="button6">
+                                <div class="text-center">
+                                    <button class="btn btn-light"><a href="https://keerthanatammina.github.io/gro1/">Pay now</a></button>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <img src="https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg" class="img4"/>
+                                <img src="data:image/png;base64,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" class="img4"/>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Paytm_logo.png" class="img4"/>
+                                <img src="data:image/png;base64,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" class="img4"/>
+                            </div>
+                        </div>
+        
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+
+        
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
